@@ -1,0 +1,68 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+/*----header starts----*/
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.logo {
+    margin: 15px;
+    height: 100px;
+    width: 200px;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-right ul {
+    list-style-type: none;
+}
+
+.navbar-right li {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    line-height: 3.5;
+}
+
+/*----header ends---*/
+
+/*----section starts----*/
+
+.btn {
+    width: 100%;
+}
+
+.stage {
+    margin-top: 60px;
+    width: inherit;
+}
+
+
+
+/*------media query-----*/
+
+@media (min-width: 576px) {
+    
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+ 
+}
