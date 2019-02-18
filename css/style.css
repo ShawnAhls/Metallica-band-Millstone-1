@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Anton');
+
 .body {
     margin: 0;
     padding: 0;
@@ -5,23 +7,31 @@
 
 /*----header starts----*/
 
-.container {
+.container-fluid {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
 }
 
+.navbar {
+    background-color: #595959;
+}
+
 .logo {
-    margin: 15px;
-    height: 100px;
-    width: 200px;
+    margin: 0px;
+    height: 80px;
+    width: 150px;
+    background-color: #595959;
 }
 
 .navbar-right {
     float: right;
+    background-color: #595959;
 }
 
 .navbar-right ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
@@ -32,37 +42,92 @@
     line-height: 3.5;
 }
 
+.navbar-right a {
+    color: white;
+}
+
 /*----header ends---*/
 
 /*----section starts----*/
 
 .btn {
-    width: 100%;
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 50%;
+    font-family: "Anton";
+    font-size: large;
+    font-stretch: expanded;
 }
 
 .stage {
     margin-top: 60px;
-    width: inherit;
+    width: 100%;
+
 }
 
+h1 {
+    margin-top: 25px;
+}
 
+h2 {
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*----section ends----*/
+
+/*----footer starts----*/
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-footer-center {
+    margin: 0;
+    padding: 0;
+    background-color: #595959;
+}
+
+.nav-footer-center ul {
+    list-style-type: none;
+}
+
+.nav-footer-center li {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    line-height: 3.5;
+}
+
+/*----footer ends----*/
+
+/*----Book us starts----*/
+
+.fieldset {
+    margin: 160px;
+    padding: 25px;
+}
+
+.form {
+    margin: 10px;
+    padding: 10px;
+}
+
+/*----Book us ends----*/
 
 /*------media query-----*/
 
-@media (min-width: 576px) {
-    
-}
+@media (min-width: 575px) {}
 
 
-@media (min-width: 768px) {
-
-}
+@media (min-width: 768px) {}
 
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {}
 
-}
-
-@media (min-width: 1200px) {
- 
-}
+@media (min-width: 1200px) {}
