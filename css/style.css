@@ -14,19 +14,19 @@
 }
 
 .navbar {
-    background-color: #595959;
+    background-color: #d9d9d9;
 }
 
 .logo {
     margin: 0px;
     height: 80px;
     width: 150px;
-    background-color: #595959;
+    background-color: #d9d9d9;
 }
 
 .navbar-right {
     float: right;
-    background-color: #595959;
+    background-color: #d9d9d9;
 }
 
 .navbar-right ul {
@@ -43,7 +43,7 @@
 }
 
 .navbar-right a {
-    color: white;
+    color: #4d4d4d;
 }
 
 /*----header ends---*/
@@ -51,8 +51,8 @@
 /*----section starts----*/
 
 .btn {
-    margin-left: 300px;
-    margin-top: 10px;
+    margin-left: 320px;
+    margin-top: 25px;
     width: 50%;
     font-family: "Anton";
     font-size: large;
@@ -60,13 +60,33 @@
 }
 
 .stage {
-    margin-top: 60px;
-    width: 100%;
+    margin: 60px;
+    width: 90%;
+    border-radius: 70px;
+}
 
+.contianer {
+    margin: 60px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.newalbum {
+    margin-left: 200px;
+    width: 70%;
+}
+
+.members {
+    margin: 60px;
+    margin-left: 70px;
+    width: 90%;
+    height: 450px;
+    border-radius: 70px;
 }
 
 h1 {
     margin-top: 25px;
+    text-align: center;
 }
 
 h2 {
@@ -82,19 +102,20 @@ p {
 
 /*----footer starts----*/
 
-.footer {
+.footer ul {
     margin: 0;
-    padding: 0;
+    margin-bottom: 0;
 }
 
 .nav-footer-center {
     margin: 0;
     padding: 0;
-    background-color: #595959;
+    background-color: #d9d9d9;
 }
 
 .nav-footer-center ul {
     list-style-type: none;
+    margin-bottom: 0;
 }
 
 .nav-footer-center li {
@@ -104,18 +125,34 @@ p {
     line-height: 3.5;
 }
 
+.nav-footer-center a {
+    color: #4d4d4d;
+}
+
 /*----footer ends----*/
 
 /*----Book us starts----*/
 
-.fieldset {
-    margin: 160px;
-    padding: 25px;
+form {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
 }
 
-.form {
-    margin: 10px;
-    padding: 10px;
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50px;
+    text-shadow: #d9d9d9;
+}
+
+textarea {
+    resize: both;
+}
+
+submit {
+    text-align: center;
 }
 
 /*----Book us ends----*/
